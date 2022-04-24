@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#page{
+    min-height: fit-content;
+  
+    display: flex;
+   
+}
+.imagesection{
+    width: 40%;
+    background: url(https://i.postimg.cc/nrrvPNr5/Group-7.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    height: 100vh;
+    
+    
+}
+#formconatiner{
+    width: 60%;
+    height: 100vh;
+  background-color: aqua;
+    padding: 40px;
+
+}
+#form{
+    font-size: large;
+    width: 100%;
+   padding: 20px;
+
+}
+#form h1{
+    line-height: 100px;
+    font-size: 25px;
+    color: #086Db8;
+  }
+
+.logo{
+    display: flex;
+    justify-content: flex-end;
+}
+label{
+    color: rgb(2, 0, 4);
+    font-size: 20px;
+}
+.formbox input[type="text"],.formbox input[type="email"], .formbox input[type="password"]
+, .formbox select{
+    width: 100%;
+    padding: 10px;
+   
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: 0;
+    border-radius: 4px;
+}
+.formbox{
+    display: flex;
+    justify-content: space-between;
+}
+.formbox .inputll{
+width: 48%;
+}
+.about input[type="text"]{
+    width: 100%;
+    padding: 10px;
+}
+.submit input[type="submit"]{
+    width: 222px;
+    height: 40px;
+    margin-top: 5px;
+    float: right;
+
+    border-radius: 10px 0px;
+    font-size: 18px;
+    font-weight: bold; 
+    color: blanchedalmond;
+    border: darkblue;
+    background-color: darkblue;
+}
+input[type="button"]:hover {
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: lightblue;
+    background: #3E53C4;
+    
+}
+.imagesection h1{
+    text-align: end;
+    color: azure;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.imagesection h2{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+    color: azure;
+    text-align: left;
+
+}
